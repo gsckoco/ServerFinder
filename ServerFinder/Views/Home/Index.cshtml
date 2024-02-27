@@ -1,0 +1,108 @@
+﻿@using ServerFinder.Entities
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "HomeLayout";
+}
+
+
+<table class="table table-striped table-hover">
+    <thead>
+    <tr>
+        <th>Company</th>
+        <th>Server Name</th>
+        <th>Memory (GB)<a id="sort"/></th>
+        <th name="pcores">Cores<a id="sort"/></th>
+        <th name="pthreads">Threads<a id="sort"/></th>
+        <th>Storage<a id="sort"/></th>
+        <th>Price (per month)<a id="sort"/></th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (TblServer server in @Model)
+    {
+        /*<p>@server.Id - @server.ServerName - @server.CompanyNavigation.CompanyName</p>*/
+        
+        <tr>
+            <td>@server.CompanyNavigation.CompanyName</td>
+            <td>@server.ServerName</td>
+            <td>@server.Ram</td>
+            <td>@server.ProcessorNavigation.PCores</td>
+            <td>@server.ProcessorNavigation.PThreads</td>
+            <td>@server.TotalStorage</td>
+            <td>@server.Price.ToString("F2")</td>
+            <td><a href="@server.Link">Open</a></td>
+        </tr>
+    }
+    </tbody>    
+</table>
+
+<template id="sortUp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-up" viewBox="0 0 16 16">
+      <path d="M3.5 12.5a.5.5 0 0 1-1 0V3.707L1.354 4.854a.5.5 0 1 1-.708-.708l2-1.999.007-.007a.5.5 0 0 1 .7.006l2 2a.5.5 0 1 1-.707.708L3.5 3.707zm3.5-9a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+    </svg>
+</template>
+
+<template id="sortDown">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sort-down" viewBox="0 0 16 16">
+        <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5M7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1z"/>
+    </svg>
+</template>
+
+<template id="sortNone">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.00063 2.5C5.00063 2.36739 4.94795 2.24021 4.85418 2.14645C4.76042 2.05268 4.63324 2 4.50063 2C4.36802 2 4.24085 2.05268 4.14708 2.14645C4.05331 2.24021 4.00063 2.36739 4.00063 2.5V11.293L2.85463 10.146C2.76074 10.0521 2.63341 9.99937 2.50063 9.99937C2.36786 9.99937 2.24052 10.0521 2.14663 10.146C2.05274 10.2399 2 10.3672 2 10.5C2 10.6328 2.05274 10.7601 2.14663 10.854L4.14663 12.853L4.15363 12.86C4.24751 12.9515 4.37375 13.0023 4.50487 13.0011C4.63598 13 4.76134 12.9471 4.85363 12.854L6.85363 10.854C6.90012 10.8076 6.93701 10.7525 6.96219 10.6918C6.98738 10.6311 7.00036 10.5661 7.00041 10.5004C7.00046 10.4347 6.98756 10.3696 6.96246 10.3089C6.93736 10.2482 6.90055 10.193 6.85413 10.1465C6.80771 10.1 6.75258 10.0631 6.69191 10.0379C6.63123 10.0128 6.56618 9.99977 6.50049 9.99972C6.43479 9.99968 6.36972 10.0126 6.30901 10.0377C6.2483 10.0628 6.19312 10.0996 6.14663 10.146L5.00063 11.293V2.5Z" fill="black"/>
+        <path d="M12.0006 12.5C12.0006 12.6326 11.948 12.7597 11.8542 12.8535C11.7604 12.9473 11.6332 13 11.5006 13C11.368 13 11.2408 12.9473 11.1471 12.8535C11.0533 12.7597 11.0006 12.6326 11.0006 12.5V3.70695L9.85463 4.85395C9.80814 4.90044 9.75295 4.93732 9.69221 4.96248C9.63148 4.98764 9.56638 5.00059 9.50063 5.00059C9.43489 5.00059 9.36979 4.98764 9.30905 4.96248C9.24831 4.93732 9.19312 4.90044 9.14663 4.85395C9.10014 4.80747 9.06327 4.75228 9.03811 4.69154C9.01295 4.6308 9 4.5657 9 4.49995C9 4.43421 9.01295 4.36911 9.03811 4.30837C9.06327 4.24763 9.10014 4.19244 9.14663 4.14595L11.1466 2.14695L11.1536 2.13995C11.2479 2.04914 11.374 1.9989 11.5049 2.00002C11.6357 2.00114 11.761 2.05354 11.8536 2.14595L13.8536 4.14595C13.9001 4.19238 13.937 4.2475 13.9622 4.30818C13.9874 4.36886 14.0004 4.4339 14.0004 4.4996C14.0005 4.5653 13.9876 4.63036 13.9625 4.69108C13.9374 4.75179 13.9006 4.80697 13.8541 4.85345C13.8077 4.89994 13.7526 4.93683 13.6919 4.96202C13.6312 4.9872 13.5662 5.00019 13.5005 5.00023C13.4348 5.00028 13.3697 4.98738 13.309 4.96229C13.2483 4.93719 13.1931 4.90038 13.1466 4.85395L12.0006 3.70695V12.5Z" fill="black"/>
+    </svg>
+</template>
+
+<style>
+    a#sort {
+        text-decoration: none;
+    }
+    .gray>svg>path {
+        fill: #a4a4a4;
+    }
+    .gray:hover>svg>path {
+        fill: #575757;
+    }
+    
+    a#sort.active>svg>path {
+        fill: #0094ff;
+    }
+    a#sort.active:hover>svg>path {
+        fill: #0e689f;
+    }
+</style>
+
+<script >
+
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+
+    const sortButtons = document.querySelectorAll("#sort");
+    
+    sortButtons.forEach(sort => {
+        
+        const sortName = sort.parentElement.getAttribute("name") || sort.parentElement.innerText.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+        
+        let targetDir = "desc";
+        
+        if (params.sortSource === sortName) {
+            sort.innerHTML = document.getElementById(params.sortDirection === "asc" ? "sortUp" : "sortDown").innerHTML;
+            sort.className = "active";
+            if (params.sortDirection === "desc") {
+                targetDir = "asc"
+            }
+        } else {
+            sort.innerHTML = document.getElementById("sortNone").innerHTML;
+            sort.className = "gray";
+        }
+        
+        
+        sort.href = `/?sortDirection=${targetDir}&sortSource=${sortName}`;
+    
+    })
+
+</script>
