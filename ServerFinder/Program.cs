@@ -17,6 +17,8 @@ builder.Services.AddAuthorization(options =>
     });
 });
 
+builder.Services.AddHostedService<ExchangeRateService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,7 +44,5 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
 
 app.Run();

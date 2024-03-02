@@ -1,4 +1,6 @@
 using Newtonsoft.Json;
+using ServerFinder.Context;
+using ServerFinder.Entities;
 using ServerFinder.Models;
 
 namespace ServerFinder;
@@ -17,16 +19,41 @@ public class ExchangeRateService : BackgroundService
         ExchangeRate rates = JsonConvert.DeserializeObject<ExchangeRate>(body)!;
         
         //TODO save back to DB and pull into UI
+        using MainDbContext context = new MainDbContext();
+
+        foreach (var (key, value) in rates.Rates)
+        {
+            var existing = await context.TblRates.FindAsync(key);
+
+            if (existing != null)
+            {
+                existing.Rate = value;
+            }
+            else
+            {
+                context.TblRates.Add(new TblRates()
+                {
+                    Currency = key,
+                    Rate = value
+                });
+            }
+            
+            Console.WriteLine($"{key} {value}");
+        }
+
+        await context.SaveChangesAsync();
     }
     
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
         using PeriodicTimer timer = new PeriodicTimer(TimeSpan.FromHours(24));
         
+        // Run on startup.
+        //await ExecuteTaskAsync();
         
         while (!stoppingToken.IsCancellationRequested && await timer.WaitForNextTickAsync(stoppingToken))
         {
-            await ExecuteTaskAsync();    
+            await ExecuteTaskAsync();
         }
     }
 }
