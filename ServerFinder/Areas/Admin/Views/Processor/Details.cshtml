@@ -1,0 +1,61 @@
+@model ServerFinder.Entities.TblProcessor
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/AdminLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TblProcessor</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProcessorName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProcessorName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PCores)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PCores)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ECores)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ECores)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PThreads)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PThreads)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EThreads)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EThreads)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BaseFreq)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BaseFreq)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Brand)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Brand)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

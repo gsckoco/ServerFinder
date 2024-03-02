@@ -21,10 +21,11 @@ public partial class MainDbContext : DbContext
     public virtual DbSet<TblProcessor> TblProcessors { get; set; }
 
     public virtual DbSet<TblServer> TblServers { get; set; }
+    public virtual DbSet<TblRates> TblRates { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-DUFVUCR\\SQLEXPRESS;database=ServerFinder;Integrated Security=true;TrustServerCertificate=True;");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https: //go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseMySQL("server=127.0.0.1;uid=root;pwd=password;database=serverfinder");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -40,6 +41,7 @@ public partial class MainDbContext : DbContext
             entity.Property(e => e.ConnectionSpeed).HasDefaultValue(1000);
             entity.Property(e => e.ProcessorCount).HasDefaultValue(1);
             entity.Property(e => e.TotalStorage).HasDefaultValue(1024);
+            entity.Property(e => e.Storage).HasDefaultValue("");
 
             entity.HasOne(d => d.CompanyNavigation).WithMany(p => p.TblServers)
                 .OnDelete(DeleteBehavior.ClientSetNull)

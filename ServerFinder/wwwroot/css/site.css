@@ -20,3 +20,8 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.hint {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}

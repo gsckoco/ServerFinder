@@ -27,7 +27,7 @@ public partial class TblServer
     [Column("storage")]
     [StringLength(1024)]
     [Unicode(false)]
-    public string Storage { get; set; } = null!;
+    public string Storage { get; set; } = "";
 
     [Column("totalStorage")]
     public int TotalStorage { get; set; }
@@ -55,8 +55,15 @@ public partial class TblServer
     [Column("processorCount")]
     public int ProcessorCount { get; set; }
 
-    [Column("price", TypeName = "money")]
+    [Column("price")]
     public decimal Price { get; set; }
+    
+    /// <summary>
+    /// Normalise all other currencies to GBP.
+    /// TODO Maybe also normalise to USD, potentially more useful.
+    /// </summary>
+    [Column("price_gbp")]
+    public decimal PriceGbp { get; set; }
 
     [Column("currency")]
     [StringLength(3)]
@@ -65,9 +72,9 @@ public partial class TblServer
 
     [ForeignKey("Company")]
     [InverseProperty("TblServers")]
-    public virtual TblCompany CompanyNavigation { get; set; } = null!;
+    public virtual TblCompany? CompanyNavigation { get; set; } = null!;
 
     [ForeignKey("Processor")]
     [InverseProperty("TblServers")]
-    public virtual TblProcessor ProcessorNavigation { get; set; } = null!;
+    public virtual TblProcessor? ProcessorNavigation { get; set; } = null!;
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -22,12 +23,14 @@ public partial class TblProcessor
     public int PCores { get; set; }
 
     [Column("eCores")]
+    [DefaultValue(0)]
     public int ECores { get; set; }
 
     [Column("pThreads")]
     public int PThreads { get; set; }
 
     [Column("eThreads")]
+    [DefaultValue(0)]
     public int EThreads { get; set; }
 
     [Column("baseFreq")]

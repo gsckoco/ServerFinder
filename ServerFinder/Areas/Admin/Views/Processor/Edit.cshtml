@@ -1,0 +1,62 @@
+@model ServerFinder.Entities.TblProcessor
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/AdminLayout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>TblProcessor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="ProcessorName" class="control-label"></label>
+                <input asp-for="ProcessorName" class="form-control" />
+                <span asp-validation-for="ProcessorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PCores" class="control-label"></label>
+                <input asp-for="PCores" class="form-control" />
+                <span asp-validation-for="PCores" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ECores" class="control-label"></label>
+                <input asp-for="ECores" class="form-control" />
+                <span asp-validation-for="ECores" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PThreads" class="control-label"></label>
+                <input asp-for="PThreads" class="form-control" />
+                <span asp-validation-for="PThreads" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EThreads" class="control-label"></label>
+                <input asp-for="EThreads" class="form-control" />
+                <span asp-validation-for="EThreads" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BaseFreq" class="control-label"></label>
+                <input asp-for="BaseFreq" class="form-control" />
+                <span asp-validation-for="BaseFreq" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Brand" class="control-label"></label>
+                <input asp-for="Brand" class="form-control" />
+                <span asp-validation-for="Brand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

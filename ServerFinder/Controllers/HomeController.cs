@@ -33,7 +33,7 @@ public class HomeController : Controller
                 list = sortDirection == "desc" ? 
                     list.OrderByDescending(s => s.TotalStorage) : list.OrderBy(s => s.TotalStorage);
                 break;
-            case "memory":
+            case "ram":
                 list = sortDirection == "desc" ? 
                     list.OrderByDescending(s => s.Ram) : list.OrderBy(s => s.Ram);
                 break;

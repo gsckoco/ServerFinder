@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Areas/Admin/Views/AdminLayout.cshtml";
 }
 
 <h1>Create</h1>
@@ -11,60 +11,61 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        @using (Html.BeginForm("Create", "Server"))
+        {
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="ServerName" class="control-label"></label>
-                <input asp-for="ServerName" class="form-control" />
+                <input asp-for="ServerName" class="form-control"/>
                 <span asp-validation-for="ServerName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Ram" class="control-label"></label>
-                <input asp-for="Ram" class="form-control" />
+                <input asp-for="Ram" class="form-control"/>
                 <span asp-validation-for="Ram" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsEcc" type="checkbox" /> @Html.DisplayNameFor(model => model.IsEcc)
+                    <input class="form-check-input" asp-for="IsEcc"/> @Html.DisplayNameFor(model => model.IsEcc)
                 </label>
             </div>
             <div class="form-group">
-                <label asp-for="Storage" class="control-label"></label>
-                <input asp-for="Storage" class="form-control" />
-                <span asp-validation-for="Storage" class="text-danger"></span>
+                <label asp-for="TotalStorage" class="control-label"></label>
+                <input asp-for="TotalStorage" class="form-control"/>
+                <span asp-validation-for="TotalStorage" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="IsCustomisable" type="checkbox" /> @Html.DisplayNameFor(model => model.IsCustomisable)
+                    <input class="form-check-input" asp-for="IsCustomisable"/> @Html.DisplayNameFor(model => model.IsCustomisable)
                 </label>
             </div>
             <div class="form-group">
                 <label asp-for="Link" class="control-label"></label>
-                <input asp-for="Link" class="form-control" />
+                <input asp-for="Link" class="form-control"/>
                 <span asp-validation-for="Link" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Company" class="control-label"></label>
-                <select asp-for="Company" class ="form-control" asp-items="ViewBag.Company"></select>
+                <select asp-for="Company" class="form-control" asp-items="ViewBag.Company"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Processor" class="control-label"></label>
-                <select asp-for="Processor" class ="form-control" asp-items="ViewBag.Processor"></select>
+                <select asp-for="Processor" class="form-control" asp-items="ViewBag.Processor"></select>
             </div>
             <div class="form-group">
                 <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
+                <input asp-for="Price" class="form-control"/>
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Currency" class="control-label"></label>
-                <input asp-for="Currency" class="form-control" />
+                <input asp-for="Currency" class="form-control"/>
                 <span asp-validation-for="Currency" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary"/>
             </div>
-        </form>
+        }
     </div>
 </div>
 

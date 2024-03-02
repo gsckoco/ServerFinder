@@ -9,12 +9,12 @@
     <thead>
     <tr>
         <th>Company</th>
-        <th>Server Name</th>
-        <th>Memory (GB)<a id="sort"/></th>
+        <th>Name</th>
+        <th>RAM (GB)<a id="sort"/></th>
         <th name="pcores">Cores<a id="sort"/></th>
         <th name="pthreads">Threads<a id="sort"/></th>
         <th>Storage<a id="sort"/></th>
-        <th>Price (per month)<a id="sort"/></th>
+        <th class="hint" title="Per month">Price<a id="sort"/></th>
         <th>Link</th>
     </tr>
     </thead>
@@ -72,6 +72,10 @@
     }
     a#sort.active:hover>svg>path {
         fill: #0e689f;
+    }
+    
+    a#sort {
+        text-decoration: none !important;
     }
 </style>
 

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,23 +12,23 @@ using ServerFinder.Entities;
 namespace ServerFinder.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class ServerController : Controller
+    [Authorize(Policy = "IPAuth")]
+    public class CompanyController : Controller
     {
         private readonly MainDbContext _context;
 
-        public ServerController(MainDbContext context)
+        public CompanyController(MainDbContext context)
         {
             _context = context;
         }
 
-        // GET: Admin/Server
+        // GET: Admin/Company
         public async Task<IActionResult> Index()
         {
-            var mainDbContext = _context.TblServers.Include(t => t.CompanyNavigation).Include(t => t.ProcessorNavigation);
-            return View(await mainDbContext.ToListAsync());
+            return View(await _context.TblCompanies.ToListAsync());
         }
 
-        // GET: Admin/Server/Details/5
+        // GET: Admin/Company/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -35,45 +36,39 @@ namespace ServerFinder.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tblServer = await _context.TblServers
-                .Include(t => t.CompanyNavigation)
-                .Include(t => t.ProcessorNavigation)
+            var tblCompany = await _context.TblCompanies
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (tblServer == null)
+            if (tblCompany == null)
             {
                 return NotFound();
             }
 
-            return View(tblServer);
+            return View(tblCompany);
         }
 
-        // GET: Admin/Server/Create
+        // GET: Admin/Company/Create
         public IActionResult Create()
         {
-            ViewData["Company"] = new SelectList(_context.TblCompanies, "Id", "CompanyName");
-            ViewData["Processor"] = new SelectList(_context.TblProcessors, "Id", "ProcessorName");
             return View();
         }
 
-        // POST: Admin/Server/Create
+        // POST: Admin/Company/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,ServerName,Ram,IsEcc,Storage,TotalStorage,ConnectionSpeed,Bandwidth,IsCustomisable,Link,Company,Processor,ProcessorCount,Price,Currency")] TblServer tblServer)
+        public async Task<IActionResult> Create([Bind("Id,CompanyName,Website")] TblCompany tblCompany)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tblServer);
+                _context.Add(tblCompany);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Company"] = new SelectList(_context.TblCompanies, "Id", "CompanyName", tblServer.Company);
-            ViewData["Processor"] = new SelectList(_context.TblProcessors, "Id", "ProcessorName", tblServer.Processor);
-            return View(tblServer);
+            return View(tblCompany);
         }
 
-        // GET: Admin/Server/Edit/5
+        // GET: Admin/Company/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -81,24 +76,22 @@ namespace ServerFinder.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tblServer = await _context.TblServers.FindAsync(id);
-            if (tblServer == null)
+            var tblCompany = await _context.TblCompanies.FindAsync(id);
+            if (tblCompany == null)
             {
                 return NotFound();
             }
-            ViewData["Company"] = new SelectList(_context.TblCompanies, "Id", "CompanyName", tblServer.Company);
-            ViewData["Processor"] = new SelectList(_context.TblProcessors, "Id", "ProcessorName", tblServer.Processor);
-            return View(tblServer);
+            return View(tblCompany);
         }
 
-        // POST: Admin/Server/Edit/5
+        // POST: Admin/Company/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,ServerName,Ram,IsEcc,Storage,TotalStorage,ConnectionSpeed,Bandwidth,IsCustomisable,Link,Company,Processor,ProcessorCount,Price,Currency")] TblServer tblServer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,CompanyName,Website")] TblCompany tblCompany)
         {
-            if (id != tblServer.Id)
+            if (id != tblCompany.Id)
             {
                 return NotFound();
             }
@@ -107,12 +100,12 @@ namespace ServerFinder.Areas.Admin.Controllers
             {
                 try
                 {
-                    _context.Update(tblServer);
+                    _context.Update(tblCompany);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TblServerExists(tblServer.Id))
+                    if (!TblCompanyExists(tblCompany.Id))
                     {
                         return NotFound();
                     }
@@ -123,12 +116,10 @@ namespace ServerFinder.Areas.Admin.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["Company"] = new SelectList(_context.TblCompanies, "Id", "Id", tblServer.Company);
-            ViewData["Processor"] = new SelectList(_context.TblProcessors, "Id", "Id", tblServer.Processor);
-            return View(tblServer);
+            return View(tblCompany);
         }
 
-        // GET: Admin/Server/Delete/5
+        // GET: Admin/Company/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,36 +127,34 @@ namespace ServerFinder.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            var tblServer = await _context.TblServers
-                .Include(t => t.CompanyNavigation)
-                .Include(t => t.ProcessorNavigation)
+            var tblCompany = await _context.TblCompanies
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (tblServer == null)
+            if (tblCompany == null)
             {
                 return NotFound();
             }
 
-            return View(tblServer);
+            return View(tblCompany);
         }
 
-        // POST: Admin/Server/Delete/5
+        // POST: Admin/Company/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var tblServer = await _context.TblServers.FindAsync(id);
-            if (tblServer != null)
+            var tblCompany = await _context.TblCompanies.FindAsync(id);
+            if (tblCompany != null)
             {
-                _context.TblServers.Remove(tblServer);
+                _context.TblCompanies.Remove(tblCompany);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool TblServerExists(int id)
+        private bool TblCompanyExists(int id)
         {
-            return _context.TblServers.Any(e => e.Id == id);
+            return _context.TblCompanies.Any(e => e.Id == id);
         }
     }
 }

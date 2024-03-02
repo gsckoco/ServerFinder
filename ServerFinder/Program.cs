@@ -1,9 +1,21 @@
+using Microsoft.AspNetCore.Authorization;
+using ServerFinder;
 using ServerFinder.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<MainDbContext>().AddControllersWithViews().AddRazorRuntimeCompilation();
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddSingleton<IAuthorizationHandler, IpAuthorisation>();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("IPAuth", policyBuilder =>
+    {
+        policyBuilder.Requirements.Add(new IpRequirement());
+    });
+});
 
 var app = builder.Build();
 
@@ -22,14 +34,15 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+app.MapControllerRoute(
+    name : "area",
+    pattern : "{area}/{controller=Home}/{action=Index}/{id?}"
+);
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 
-app.MapControllerRoute(
-    name : "Admin",
-    pattern : "{area:exists}/{controller=Home}/{action=Index}/{id?}"
-);
 
 app.Run();
