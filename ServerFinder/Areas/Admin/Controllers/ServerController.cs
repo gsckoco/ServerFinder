@@ -65,6 +65,19 @@ namespace ServerFinder.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 _context.Add(tblServer);
+                
+                var priceInEuros = 0m;
+                if (tblServer.Currency.ToUpper() == "EUR")
+                {
+                    priceInEuros = tblServer.Price;
+                }
+                else
+                {
+                    priceInEuros = tblServer.Price / (decimal)_context.TblRates.First(k => k.Currency == tblServer.Currency.ToUpper()).Rate;
+                }
+
+                tblServer.PriceGbp = priceInEuros * (decimal)_context.TblRates.First(k => k.Currency == "EUR").Rate;
+                
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

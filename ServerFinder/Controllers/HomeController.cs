@@ -27,7 +27,7 @@ public class HomeController : Controller
         {
             case "price":
                 list = sortDirection == "desc" ? 
-                    list.OrderByDescending(s => s.Price) : list.OrderBy(s => s.Price);
+                    list.OrderByDescending(s => s.PriceGbp) : list.OrderBy(s => s.PriceGbp);
                 break;
             case "storage":
                 list = sortDirection == "desc" ? 
