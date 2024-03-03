@@ -27,6 +27,7 @@ public class ExchangeRateService : BackgroundService
             if (existing != null)
             {
                 existing.Rate = value;
+                context.TblRates.Update(existing);
             }
             else
             {
@@ -39,6 +40,26 @@ public class ExchangeRateService : BackgroundService
             
             Console.WriteLine($"{key} {value}");
         }
+        
+        // Weve now got the most up to date exchange rates. Normalise the exchange rate.
+
+        await foreach (var server in context.TblServers)
+        {
+            var priceInEuros = 0m;
+            if (server.Currency.ToUpper() == "EUR")
+            {
+                priceInEuros = server.Price;
+            }
+            else
+            {
+                priceInEuros = server.Price / (decimal)rates.Rates[server.Currency.ToUpper()];
+            }
+
+            server.PriceGbp = priceInEuros * (decimal)rates.Rates["GBP"];
+            context.TblServers.Update(server);
+        }
+        
+        Console.WriteLine("Updated rates");
 
         await context.SaveChangesAsync();
     }
@@ -48,7 +69,7 @@ public class ExchangeRateService : BackgroundService
         using PeriodicTimer timer = new PeriodicTimer(TimeSpan.FromHours(24));
         
         // Run on startup.
-        //await ExecuteTaskAsync();
+        await ExecuteTaskAsync();
         
         while (!stoppingToken.IsCancellationRequested && await timer.WaitForNextTickAsync(stoppingToken))
         {
