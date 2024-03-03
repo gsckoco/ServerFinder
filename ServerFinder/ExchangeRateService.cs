@@ -18,7 +18,6 @@ public class ExchangeRateService : BackgroundService
 
         ExchangeRate rates = JsonConvert.DeserializeObject<ExchangeRate>(body)!;
         
-        //TODO save back to DB and pull into UI
         using MainDbContext context = new MainDbContext();
 
         foreach (var (key, value) in rates.Rates)

@@ -60,7 +60,7 @@ public partial class TblServer
     
     /// <summary>
     /// Normalise all other currencies to GBP.
-    /// TODO Maybe also normalise to USD, potentially more useful.
+    /// Maybe also normalise to USD, potentially more useful.
     /// </summary>
     [Column("price_gbp")]
     public decimal PriceGbp { get; set; }
