@@ -18,7 +18,7 @@ public class ExchangeRateService : BackgroundService
 
         ExchangeRate rates = JsonConvert.DeserializeObject<ExchangeRate>(body)!;
         
-        using MainDbContext context = new MainDbContext();
+        await using MainDbContext context = new MainDbContext();
 
         foreach (var (key, value) in rates.Rates)
         {

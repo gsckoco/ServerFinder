@@ -1,0 +1,242 @@
+[
+  {
+    "name": "L4i",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-intel-quad-core.png\" alt=\"Logo Intel Core 2\">",
+      "CPU",
+      "Intel® Quad Core™<br>4 cores x 3.1 GHz<br>3.4 GHz Turbo Boost",
+      "RAM",
+      "12 GB RAM<br>DDR3 ECC",
+      "HDD",
+      "1 TB<br>(2 x 1 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£55/month          </span><span class=\"price-line-through price-gross vat\">£66/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             27           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">32</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">40</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-l-4i-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-l-4i&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-l-4i\" data-linkid=\"ct.btn.order.tariff-ded-server-l-4i\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL6",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-amd.png\" alt=\"Logo AMD Hexa-Core\">",
+      "CPU",
+      "AMD Hexa-Core<br>6 cores x 2.8 GHz<br>3.3 GHz Turbo Boost",
+      "RAM",
+      "16 GB RAM<br>DDR3 ECC",
+      "HDD",
+      "1 TB<br>(2 x 1 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£65/month          </span><span class=\"price-line-through price-gross vat\">£78/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             32           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">38</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">40</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-6-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-6&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-6\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-6\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "X4i",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v3<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "16 GB RAM<br>DDR3 ECC",
+      "HDD",
+      "1 TB<br>(2 x 1 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£80/month          </span><span class=\"price-line-through price-gross vat\">£96/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             40           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             48           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-x-4i-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-x-4i&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-x-4i\" data-linkid=\"ct.btn.order.tariff-ded-server-x-4i\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL8",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-amd.png\" alt=\"Logo AMD Octa-Core\">",
+      "CPU",
+      "AMD Opteron™ 4274 HE<br>8 cores x 2.6 GHz<br>3.5 GHz Turbo Boost",
+      "RAM",
+      "16 GB<br>DDR3 ECC",
+      "HDD",
+      "1.5 TB<br>(2 x 1.5 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£80/month          </span><span class=\"price-line-through price-gross vat\">£96/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             40           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             48           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-8-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-8&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-8\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-8\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "L16 HDD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1230 v6<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "16 GB<br>DDR4 ECC",
+      "HDD",
+      "1 TB<br>(2 x 1 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£65/month          </span><span class=\"price-line-through price-gross vat\">£78/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             42           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">50</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">40</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-l-16-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-l-16&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-l-16\" data-linkid=\"ct.btn.order.tariff-ded-server-l-16\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "L-32 HDD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1230 v6<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "32 GB<br>DDR4 ECC",
+      "HDD",
+      "1 TB<br>(2 x 1 TB SATA)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£75/month          </span><span class=\"price-line-through price-gross vat\">£90/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             48           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">57</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">60</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-l-32-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-l-32&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-l-32\" data-linkid=\"ct.btn.order.tariff-ded-server-l-32\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-32 HDD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "32 GB RAM<br>DDR4 ECC",
+      "HDD",
+      "2 TB<br>(2 x 2 TB SATA)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£85/month          </span><span class=\"price-line-through price-gross vat\">£102/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             55           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             66           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-32-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-32&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-32\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-32\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-64 HDD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "64 GB RAM<br>DDR4 ECC",
+      "HDD",
+      "2 TB<br>(2 x 2 TB SATA)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£120/month          </span><span class=\"price-line-through price-gross vat\">£144/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             78           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">93</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">60</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-64-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-64&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-64\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-64\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "X4i HDD+SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v3<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "16 GB RAM<br>DDR3 ECC",
+      "SSD",
+      "1 TB HDD<br>(2 x 1 TB SATA) +<br>240 GB SSD<br>(2x 240 GB SSD)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£85/month          </span><span class=\"price-line-through price-gross vat\">£102/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             42           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">50</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">40</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-x-4i-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-x-4i-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-x-4i-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-x-4i-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "L-16 SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1230 v6<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "16 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "480 GB SSD<br>(2 x 480 GB SSD)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£75/month          </span><span class=\"price-line-through price-gross vat\">£90/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             48           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">57</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">60</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-l-16-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-l-16-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-l-16-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-l-16-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "L-32 SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1230 v6<br>4 cores x 3.5 GHz<br>3.9 GHz Turbo Boost",
+      "RAM",
+      "32 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "480 GB SSD<br>(2 x 480 GB SSD)<br>Software RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£85/month          </span><span class=\"price-line-through price-gross vat\">£102/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             55           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             66           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-l-32-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-l-32-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-l-32-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-l-32-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-32 SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "32 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "800 GB SSD<br>(2 x 800 GB SSD)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£85/month          </span><span class=\"price-line-through price-gross vat\">£102/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             55           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             66           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-32-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-32-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-32-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-32-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-32 NVMe",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "32 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "1 TB NVMe SSD<br>(2 x 1 TB NVMe SSD)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£120/month          </span><span class=\"price-line-through price-gross vat\">£144/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             78           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">93</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">60</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-32-nvme-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-32-nvme&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-32-nvme\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-32-nvme\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-64 SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "64 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "800 GB SSD<br>(2 x 800 GB SSD)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£110/month          </span><span class=\"price-line-through price-gross vat\">£132/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             71           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">85</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">20</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-64-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-64-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-64-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-64-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "XL-64 NVMe",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "ntel® Xeon® E3-1270 v6<br>4 cores x 3.8 GHz<br>4.2 GHz Turbo Boost",
+      "RAM",
+      "64 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "1 TB NVMe SSD<br>(2 x 1 TB  NVMe SSD)<br>Hardware RAID 1"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£150/month          </span><span class=\"price-line-through price-gross vat\">£180/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             97           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">116</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">40</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-xl-64-nvme-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-xl-64-nvme&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-xl-64-nvme\" data-linkid=\"ct.btn.order.tariff-ded-server-xl-64-nvme\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  },
+  {
+    "name": "X8i HDD+SSD",
+    "text": [
+      "<img src=\"https://cs.uicdn.net/fileadmin/user_upload/Server/Server_Badges/vi-xeon-3rd-gen.png\" alt=\"Logo Intel Xeon\">",
+      "CPU",
+      "Intel® Xeon® E5-2630 V3<br>8 Cores (HT) x 2.4 GHz<br>3.2 GHz Turbo Boost",
+      "RAM",
+      "64 GB RAM<br>DDR4 ECC",
+      "SSD",
+      "4 TB HDD<br>(6 x 1 TB SATA) +<br>240 GB SSD<br>(2 x 240 GB SSD)<br>Hardware RAID 6"
+    ],
+    "priceInfo": [
+      "<div class=\" hft-price dhft\"><div class=\"price-container price-crossprice price-text price-text-bold price-sm-formatted price-md-formatted price-lg-formatted price price-context-bright price-context-size-m price-dot-separated\"><span class=\"price-text-above\"><span class=\"price-line-through price-normal\">£190/month          </span><span class=\"price-line-through price-gross vat\">£228/month          </span></span><span class=\"price-container price-type-offer-price price-normal\"><span class=\"price-currency-before\">£</span><span class=\"price-before-separator\">             114           </span><span class=\"price-text-behind-inline\">             /month                        </span></span><span class=\"price-container price-type-offer-price vat\"><span class=\"price-currency-before\">£</span><span><span class=\"price-before-separator\">136</span><span class=\"price-separator\">.</span><span class=\"price-behind-separator price-sup\">80</span></span><span class=\"price-text-behind-inline price-sub\">             /month                        </span></span><span class=\"price-text-below\"><span>for 24 months</span><span>Setup £50</span><span class=\"price-text-tax-hint tax-excluded\">excl. VAT</span><span class=\"price-text-tax-hint tax-included vat\">incl. VAT</span></span></div></div><div style=\"display: flex; justify-content: flex-end;\" class=\"tw-flex tw-flex-col tw-flex-auto  tw-justify-center  lg:tw-w-full tw-w-[240px]  \" data-cy=\"featuretable\"><a href=\"/server-configuration?__sendingdata=1&amp;cart.action=add-bundle&amp;cart.bundle=tariff-ded-server-x-8i-ssd-bundle&amp;packageselection=servers%2Fvalue-dedicated-server&amp;linkId=ct.btn.order.tariff-ded-server-x-8i-ssd&amp;selected.datacenter=ngcs-datacenter-uk\" data-onpagelink=\"0\" area-label=\"Configure\" data-article=\"tariff-ded-server-x-8i-ssd\" data-linkid=\"ct.btn.order.tariff-ded-server-x-8i-ssd\" class=\"tw-outline-none whitespace-nowrap tw-shadow-glow tw-font-sans-semi-bold tw-inline-grid disabled:tw-border-cool-grey-400 tw-bg-ionos-sky-300 tw-border-2 tw-border-ionos-sky-300 tw-text-ionos-blue-700 tw-text-center tw-rounded-[2.5rem] tw-py-12 tw-px-24 tw-font-semibold !tw-leading-5 tw-text-base hover:tw-bg-ionos-sky-200 hover:tw-border-ionos-sky-200 active:tw-outline-none active:tw-bg-ionos-sky-100 active:tw-border-ionos-sky-100 disabled:tw-bg-cool-grey-400 disabled:tw-cool-grey-400 focus-visible:tw-outline-2 focus-visible:tw-outline-[#458FFF] focus-visible:tw-outline focus-visible:tw-outline-offset-2 tw-w-full tw-cursor-pointer tw-mt-16\"><span class=\"\">Configure</span></a></div>"
+    ]
+  }
+]

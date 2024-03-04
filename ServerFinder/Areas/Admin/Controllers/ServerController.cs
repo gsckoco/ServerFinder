@@ -76,10 +76,10 @@ namespace ServerFinder.Areas.Admin.Controllers
                     priceInEuros = tblServer.Price / (decimal)_context.TblRates.First(k => k.Currency == tblServer.Currency.ToUpper()).Rate;
                 }
 
-                tblServer.PriceGbp = priceInEuros * (decimal)_context.TblRates.First(k => k.Currency == "EUR").Rate;
+                tblServer.PriceGbp = priceInEuros * (decimal)_context.TblRates.First(k => k.Currency == "GBP").Rate;
                 
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Create));
             }
             ViewData["Company"] = new SelectList(_context.TblCompanies, "Id", "CompanyName", tblServer.Company);
             ViewData["Processor"] = new SelectList(_context.TblProcessors, "Id", "ProcessorName", tblServer.Processor);
@@ -120,6 +120,18 @@ namespace ServerFinder.Areas.Admin.Controllers
             {
                 try
                 {
+                    
+                    var priceInEuros = 0m;
+                    if (tblServer.Currency.ToUpper() == "EUR")
+                    {
+                        priceInEuros = tblServer.Price;
+                    }
+                    else
+                    {
+                        priceInEuros = tblServer.Price / (decimal)_context.TblRates.First(k => k.Currency == tblServer.Currency.ToUpper()).Rate;
+                    }
+
+                    tblServer.PriceGbp = priceInEuros * (decimal)_context.TblRates.First(k => k.Currency == "GBP").Rate;
                     _context.Update(tblServer);
                     await _context.SaveChangesAsync();
                 }

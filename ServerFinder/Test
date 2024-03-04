@@ -1,0 +1,27 @@
+(function() {
+
+let servers = [];
+
+document.querySelectorAll("[data-cy='featuretable']").forEach(x => {
+    let name = x.querySelector("h3");
+    if (name == null || name.innerText == null) {return};
+    let text = x.querySelectorAll("p");
+    let textArr = [];
+    text.forEach(y => {
+        textArr.push(y.innerHTML);
+    });
+    
+    let priceInfo = [];
+    x.querySelectorAll(".tw-p-24").forEach(y => {
+        priceInfo.push(y.innerHTML);
+    });
+    
+    console.log(name.innerHTML, textArr);
+    servers.push({name: name.innerHTML, text: textArr, priceInfo: priceInfo});
+    
+    //tw-p-24
+});
+
+console.log(JSON.stringify(servers));
+
+})()

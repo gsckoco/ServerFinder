@@ -11,6 +11,7 @@
         <th>Company</th>
         <th>Name</th>
         <th>RAM (GB)<a id="sort"/></th>
+        <th>CPU</th>
         <th name="pcores">Cores<a id="sort"/></th>
         <th name="pthreads">Threads<a id="sort"/></th>
         <th>Storage<a id="sort"/></th>
@@ -27,9 +28,10 @@
             <td>@server.CompanyNavigation!.CompanyName</td>
             <td>@server.ServerName</td>
             <td>@server.Ram @if(@server.IsEcc) { <span class="badge rounded-pill bg-secondary">ECC</span> }</td>
-            <td>@server.ProcessorNavigation!.PCores</td>
-            <td>@server.ProcessorNavigation!.PThreads</td>
-            <td>@((server.TotalStorage/1024f).ToString("F2"))TB @if(@server.IsCustomisable) { <span class="badge rounded-pill bg-secondary">Customisable</span> }</td>
+            <td>@server.ProcessorNavigation!.Brand @server.ProcessorNavigation.ProcessorName</td>
+            <td title="P: @server.ProcessorNavigation!.PCores E: @server.ProcessorNavigation!.ECores">@(server.ProcessorNavigation!.PCores + server.ProcessorNavigation!.ECores)</td>
+            <td title="P: @server.ProcessorNavigation!.PThreads E: @server.ProcessorNavigation!.EThreads">@(server.ProcessorNavigation!.PThreads + server.ProcessorNavigation!.EThreads)</td>
+            <td title="@(server.TotalStorage)GB">@(server.TotalStorage < 1000 ? server.TotalStorage.ToString() + "GB" : (server.TotalStorage / 1024f).ToString("F2") + "TB") @if(@server.IsCustomisable) { <span class="badge rounded-pill bg-secondary">Customisable</span> }</td>
             <td>£@server.PriceGbp.ToString("F2")</td>
             <td><a href="@server.Link">Open</a></td>
         </tr>
